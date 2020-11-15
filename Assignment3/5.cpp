@@ -24,7 +24,6 @@ int main(int argc, char ** argv)
   vector<thread> threads;
   vector<int> data;
   ndata = atoi(argv[1]);
-  cout<<ndata<<endl;
   for (int i = 0; i < ndata; i++) {
     data.push_back(rand()%10);
   }
